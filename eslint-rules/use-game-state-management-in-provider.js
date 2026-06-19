@@ -44,7 +44,7 @@ export default {
     },
     schema: [],
     messages: {
-      outsideProvider: `${HOOK_NAME} may only be called inside the ${ALLOWED_FUNCTION} component.`,
+      outsideProvider: `${HOOK_NAME} may only be called inside the ${ALLOWED_FUNCTION} component. Call useGame to access the game state within React components`,
     },
   },
   create(context) {

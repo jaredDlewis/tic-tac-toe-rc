@@ -17,4 +17,5 @@
 .cat-image {
   max-height: 3rem;
   border-radius: 0.5rem;
+  box-shadow: var(--shadow);
 }
